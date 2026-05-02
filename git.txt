@@ -1,0 +1,10 @@
+git init  ## Initialize Git
+git add .    ##Add Files
+git commit -m "Initial commit - Delivery Route Optimizer"    ##Commit Files
+
+##Connect to GitHub Repo
+git remote add origin https://github.com/your-username/delivery-route-optimizer.git
+
+##Push to GitHub
+git branch -M main
+git push -u origin main
